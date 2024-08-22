@@ -4,7 +4,7 @@ from tensorflow.keras.models import load_model
 from PIL import Image
 
 # Load your trained model
-MODEL_PATH = 'D:/hardhat/KAGGLE/DigitRecogniser/model.h5'
+MODEL_PATH = 'model.h5'
 model = load_model(MODEL_PATH)
 
 # Streamlit UI
